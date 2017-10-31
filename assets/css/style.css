@@ -1,14 +1,36 @@
-h1 {
-	font-size: 40px;
+body {
+	font-size: 100%;
+	font-family: Verdana;
 }
-
+header {
+	position: sticky;
+}
+h1 {
+	font-size: 1.5em;
+	padding: 10px;
+	/*margin: 10px;*/
+	float: left;
+	background-color: yellow;
+	font-weight: bold;
+}
 nav {
 	float: right;
+	background-color: yellow;
 }
-
-li {
+nav a {
+	float: right;
 	display: block;
+	padding: 12px;
+	font-size: 1.25em;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: blue;
+}
+p {
 	padding: 10px;
+	margin: 5px;
 }
 
 .clearfix::after {
