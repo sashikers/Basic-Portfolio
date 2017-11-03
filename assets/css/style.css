@@ -1,6 +1,15 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+.content {
+	min-height: 100%;
+	background-color: blue;
+}
 body {
 	font-size: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(dust_scratches.png);
 }
 header {
 	position: sticky;
@@ -13,6 +22,7 @@ h1 {
 	/*margin: 10px;*/
 	float: left;
 	background-color: yellow;
+	/*background-image: url(dust_scratches.png);*/
 	font-weight: bold;
 }
 nav {
@@ -30,12 +40,17 @@ nav a {
 nav a:hover {
 	background-color: blue;
 }
+
 p {
 	padding: 10px;
 	margin: 10px;
 	text-align: justify;
 }
 
+.content-inside {
+	/*padding: 20px;*/
+	padding-bottom: 50px;
+}
 article {
 	padding: 10px;
 	width: 60%;
@@ -51,10 +66,28 @@ aside {
 }
 section {
 	background-color: blue;
+	padding: 20px;
+	padding-bottom: 50px;
 }
 .logo {
 	height: 50px;
 	width: 50px;
+}
+footer {
+	position: sticky;
+	bottom: 0;
+	padding: 5px;
+	background-color: gray;
+	height: 20px;
+	margin-top: -20px;
+}
+footer p {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.75em;
+	margin: 0px;
+	padding: 4px;
+	color: white;
 }
 
 .clearfix::after {
