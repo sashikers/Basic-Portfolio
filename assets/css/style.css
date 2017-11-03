@@ -52,10 +52,10 @@ aside {
 section {
 	background-color: blue;
 }
-/*.logo {*/
-	/*height: 50px;*/
-	/*width: 50px;*/
-/*}*/
+.logo {
+	height: 50px;
+	width: 50px;
+}
 
 .clearfix::after {
 	content: "";
