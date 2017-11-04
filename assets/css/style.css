@@ -76,9 +76,9 @@ aside {
 	background-color: green;
 }
 section {
-	/*background-color: blue;*/
+	background-color: blue;
 	/*padding: 20px;*/
-	padding-bottom: 50px;
+	padding-bottom: 5px;
 	/*text-align: center;*/
 	margin: 5px;
 	height: 100%;
@@ -113,7 +113,25 @@ input {
 form {
 	padding: 10px;
 }
-
+.portf {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	margin: 10px;
+	float: left;
+}
+.portftitle {
+	position: absolute;
+	top: 150px;
+	background-color: white;
+	z-index: 2;
+	padding: 10px;
+	margin: 10px;
+	width: 180px;
+	text-align: center;
+	opacity: 0.5;
+	font-weight: bold;
+}
 .clearfix::after {
 	content: "";
 	display: block;
