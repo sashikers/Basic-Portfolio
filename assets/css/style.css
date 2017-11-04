@@ -50,13 +50,15 @@ nav a {
 	text-decoration: none;
 	color: #777777;
 }
-nav a:hover {
-	background-color: #777777;
-}
+
+
 nav a:visited {
 	color: #777777;
 }
-
+nav a:hover {
+	background-color: #777777;
+	color: white;
+}
 p {
 	padding: 10px 10px 10px 10px;
 	/*margin: 10px;*/
@@ -133,8 +135,8 @@ form {
 	padding: 10px;
 }
 .portf {
-	height: 300px;
-	width: 300px;
+	height: 280px;
+	width: 280px;
 	position: relative;
 	margin: 10px;
 	float: left;
