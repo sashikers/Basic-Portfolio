@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
 	font-size: 1.1em;
-	padding: 5px;
+	padding: 10px;
 }
 h1, h2 {
 	font-family:"Georgia", "Times", "Times New Roman", serif;
@@ -48,8 +48,8 @@ nav a:hover {
 }
 
 p {
-	padding: 10px;
-	margin: 10px;
+	padding: 0px 10px 10px 10px;
+	/*margin: 10px;*/
 	text-align: justify;
 }
 
@@ -81,11 +81,13 @@ section {
 	padding-bottom: 50px;
 	/*text-align: center;*/
 	margin: 5px;
+	height: 100%;
 }
 .logo {
 	height: 50px;
 	width: 50px;
 	margin: 5px;
+	padding: 0px 10px 0px 15px;
 }
 footer {
 	position: sticky;
