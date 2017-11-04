@@ -14,13 +14,14 @@ body {
 header {
 	position: sticky;
 	top: 0;  
+	background-color: #ffffff;
 }
 h1 {
 	font-size: 1.5em;
 	padding: 10px;
 	/*margin: 10px;*/
 	float: left;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	font-weight: bold;
 }
 h2 {
@@ -30,10 +31,11 @@ h2 {
 h1, h2 {
 	font-family:"Georgia", "Times", "Times New Roman", serif;
 	font-weight: bold;
+	color: #4aaaa5;
 }
 nav {
 	float: right;
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 nav a {
 	float: right;
@@ -42,15 +44,20 @@ nav a {
 	font-size: 1.25em;
 	font-variant: small-caps;
 	text-decoration: none;
+	color: #777777;
 }
 nav a:hover {
-	background-color: blue;
+	background-color: #777777;
+}
+nav a:visited {
+	color: black;
 }
 
 p {
 	padding: 0px 10px 10px 10px;
 	/*margin: 10px;*/
 	text-align: justify;
+	color: #777777;
 }
 
 .content-inside {
@@ -65,7 +72,9 @@ article {
 	width: 650px;
 	margin: 5px;
 	float: left;
-	background-color: red;
+	background-color: #ffffff;
+	border-width: 10px;
+	border-color: black;
 }
 aside {
 	float:right;
@@ -73,15 +82,17 @@ aside {
 	margin: 5px;
 	/*width: 15%;*/
 	width: 270px;
-	background-color: green;
+	background-color: #ffffff;
 }
 section {
-	background-color: blue;
+	/*background-color: blue;*/
 	/*padding: 20px;*/
 	padding-bottom: 5px;
 	/*text-align: center;*/
 	margin: 5px;
 	height: 100%;
+	border-width: 10px;
+	border-color: black;
 }
 .logo {
 	height: 50px;
@@ -93,7 +104,7 @@ footer {
 	position: sticky;
 	bottom: 0;
 	padding: 5px;
-	background-color: gray;
+	background-color: #666666;
 	height: 20px;
 	margin-top: -20px;
 }
