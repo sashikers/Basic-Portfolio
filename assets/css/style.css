@@ -4,7 +4,7 @@ html, body {
 }
 .content {
 	min-height: 100%;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 body {
 	font-size: 100%;
@@ -14,7 +14,6 @@ body {
 header {
 	position: sticky;
 	top: 0;  
-	font-family:"Georgia", "Times", "Times New Roman", serif;
 }
 h1 {
 	font-size: 1.5em;
@@ -22,7 +21,14 @@ h1 {
 	/*margin: 10px;*/
 	float: left;
 	background-color: yellow;
-	/*background-image: url(dust_scratches.png);*/
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.1em;
+	padding: 5px;
+}
+h1, h2 {
+	font-family:"Georgia", "Times", "Times New Roman", serif;
 	font-weight: bold;
 }
 nav {
@@ -50,28 +56,36 @@ p {
 .content-inside {
 	/*padding: 20px;*/
 	padding-bottom: 50px;
+	width: 960px;
+	margin: auto;
 }
 article {
-	padding: 10px;
-	width: 60%;
-	/*margin: auto;*/
+	/*padding: 10px;*/
+	/*width: 60%;*/
+	width: 650px;
+	margin: 5px;
 	float: left;
 	background-color: red;
 }
 aside {
 	float:right;
-	padding: 10px;
-	width: 15%;
+	padding: 5px;
+	margin: 5px;
+	/*width: 15%;*/
+	width: 270px;
 	background-color: green;
 }
 section {
-	background-color: blue;
-	padding: 20px;
+	/*background-color: blue;*/
+	/*padding: 20px;*/
 	padding-bottom: 50px;
+	/*text-align: center;*/
+	margin: 5px;
 }
 .logo {
 	height: 50px;
 	width: 50px;
+	margin: 5px;
 }
 footer {
 	position: sticky;
