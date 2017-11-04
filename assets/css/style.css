@@ -105,6 +105,14 @@ footer p {
 	padding: 4px;
 	color: white;
 }
+input {
+	margin: 5px 0px 10px 0px;
+	width: 620px;
+	padding: 10px 0px 0px 0px;
+}
+form {
+	padding: 10px;
+}
 
 .clearfix::after {
 	content: "";
